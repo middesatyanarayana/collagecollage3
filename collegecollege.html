@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: auto auto auto;
+        width: 300px;
+        height: 300px;
+        gap: 5px;
+    }
+    .main:hover{
+        gap: 10px;
+    }
+    .one{
+       grid-column: 1/2;
+       grid-row: 1/2;
+       background-color: rebeccapurple;
+    }
+    .two{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-color: yellow;
+    }
+    .three{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background-color: green;
+    }
+    .four{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: pink;
+    }
+    .five{
+        grid-column: 2/4;
+        grid-row: 2/4;
+        background-color: chocolate;
+    }
+    .six{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-color: red;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+        <div class="seven"></div>
+        <div class="eight"></div>
+    </div>
+</body>
+</html>
